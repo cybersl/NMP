@@ -1,0 +1,175 @@
+2020/06/29 15:13:46 [notice] 512#12172: using the "select" event method
+2020/06/29 15:13:46 [notice] 512#12172: nginx/1.13.12
+2020/06/29 15:13:46 [info] 512#12172: OS: 260200 build:9200, "", suite:300, type:1
+2020/06/29 15:13:46 [notice] 512#12172: start worker processes
+2020/06/29 15:13:46 [notice] 512#12172: start worker process 13616
+2020/06/29 15:13:46 [notice] 13616#1532: nginx/1.13.12
+2020/06/29 15:13:46 [info] 13616#1532: OS: 260200 build:9200, "", suite:300, type:1
+2020/06/29 15:13:46 [notice] 13616#1532: create thread 7852
+2020/06/29 15:13:46 [notice] 13616#1532: create thread 12620
+2020/06/29 15:13:46 [notice] 13616#1532: create thread 12316
+2020/06/29 15:23:28 [info] 13616#7852: *1 client connected '127.0.0.1'
+2020/06/29 15:23:28 [info] 13616#7852: *1 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.47' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:23:28 [info] 13616#7852: *1 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:23:28 [info] 13616#7852: *1 publish: name='room' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:24:18 [info] 13616#7852: *2 client connected '127.0.0.1'
+2020/06/29 15:24:18 [info] 13616#7852: *2 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:24:18 [info] 13616#7852: *2 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:24:18 [info] 13616#7852: *2 play: name='room' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:25:39 [info] 13616#7852: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:25:39 [info] 13616#7852: *1 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:25:39 [info] 13616#7852: *1 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:25:39 [info] 13616#7852: *1 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:30:40 [info] 13616#7852: *2 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:30:40 [info] 13616#7852: *2 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:31:47 [info] 13616#7852: *3 client connected '127.0.0.1'
+2020/06/29 15:31:47 [info] 13616#7852: *3 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.47' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:31:47 [info] 13616#7852: *3 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:31:47 [info] 13616#7852: *3 publish: name='room' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:32:11 [info] 13616#7852: *4 client connected '127.0.0.1'
+2020/06/29 15:32:11 [info] 13616#7852: *4 connect: app='live' args='' flashver='LNX 9,0,124,2' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=4071 vcodecs=252 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:32:11 [info] 13616#7852: *4 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:32:11 [info] 13616#7852: *4 play: name='room' args='' start=-2000 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:49:07 [info] 13616#7852: *5 client connected '127.0.0.1'
+2020/06/29 15:49:07 [info] 13616#7852: *5 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/RTMP_Player.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:49:07 [info] 13616#7852: *5 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:49:07 [info] 13616#7852: *5 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:49:39 [info] 13616#7852: *5 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:49:39 [info] 13616#7852: *5 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:55:58 [info] 13616#7852: *6 client connected '127.0.0.1'
+2020/06/29 15:55:58 [info] 13616#7852: *6 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/RTMP_Player.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:55:58 [info] 13616#7852: *6 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:55:58 [info] 13616#7852: *6 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:00 [info] 13616#7852: *7 client connected '127.0.0.1'
+2020/06/29 15:58:00 [info] 13616#7852: *7 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/RTMP_Player.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:00 [info] 13616#7852: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:00 [info] 13616#7852: *7 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:00 [info] 13616#7852: *7 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:00 [info] 13616#7852: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:00 [info] 13616#7852: *7 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:15 [info] 13616#7852: *7 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 15:58:15 [info] 13616#7852: *7 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:01:42 [info] 13616#7852: *8 client connected '127.0.0.1'
+2020/06/29 16:01:42 [info] 13616#7852: *8 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5501/RTMP%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BEweb%E6%92%AD%E6%94%BE/RTMP_Player.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:01:42 [info] 13616#7852: *8 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:01:42 [info] 13616#7852: *8 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:03:51 [info] 13616#7852: *9 client connected '127.0.0.1'
+2020/06/29 16:03:51 [info] 13616#7852: *9 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:03:51 [info] 13616#7852: *9 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:03:51 [info] 13616#7852: *9 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:01 [info] 13616#7852: *10 client connected '127.0.0.1'
+2020/06/29 16:04:01 [info] 13616#7852: *10 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:01 [info] 13616#7852: *10 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:01 [info] 13616#7852: *10 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:13 [info] 13616#7852: *10 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:13 [info] 13616#7852: *10 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:20 [info] 13616#7852: *11 client connected '127.0.0.1'
+2020/06/29 16:04:20 [info] 13616#7852: *11 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:20 [info] 13616#7852: *11 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:20 [info] 13616#7852: *11 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:28 [info] 13616#7852: *11 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:28 [info] 13616#7852: *11 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:36 [info] 13616#7852: *12 client connected '127.0.0.1'
+2020/06/29 16:04:36 [info] 13616#7852: *12 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:36 [info] 13616#7852: *12 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:36 [info] 13616#7852: *12 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:38 [info] 13616#7852: *12 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:38 [info] 13616#7852: *12 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:47 [info] 13616#7852: *13 client connected '127.0.0.1'
+2020/06/29 16:04:47 [info] 13616#7852: *13 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:47 [info] 13616#7852: *13 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:04:47 [info] 13616#7852: *13 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:10 [info] 13616#7852: *14 client connected '127.0.0.1'
+2020/06/29 16:05:10 [info] 13616#7852: *14 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:10 [info] 13616#7852: *14 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:10 [info] 13616#7852: *14 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:15 [info] 13616#7852: *14 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:15 [info] 13616#7852: *14 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:24 [info] 13616#7852: *15 client connected '127.0.0.1'
+2020/06/29 16:05:24 [info] 13616#7852: *15 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:24 [info] 13616#7852: *15 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:24 [info] 13616#7852: *15 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:28 [info] 13616#7852: *15 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:28 [info] 13616#7852: *15 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:36 [info] 13616#7852: *16 client connected '127.0.0.1'
+2020/06/29 16:05:36 [info] 13616#7852: *16 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:36 [info] 13616#7852: *16 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:05:37 [info] 13616#7852: *16 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:09:52 [info] 13616#7852: *4 WSARecv() failed (10054: An existing connection was forcibly closed by the remote host), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:09:52 [info] 13616#7852: *4 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:09:52 [info] 13616#7852: *4 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:16:40 [info] 13616#7852: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:16:40 [info] 13616#7852: *3 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:16:40 [info] 13616#7852: *3 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:16:40 [info] 13616#7852: *3 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:17:58 [info] 13616#7852: *17 client connected '127.0.0.1'
+2020/06/29 16:17:58 [info] 13616#7852: *17 connect: app='live' args='' flashver='FMLE/3.0 (compatible; Lavf58.47' swf_url='' tc_url='rtmp://localhost:1935/live' page_url='' acodecs=0 vcodecs=0 object_encoding=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:17:58 [info] 13616#7852: *17 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:17:58 [info] 13616#7852: *17 publish: name='room' args='' type=live silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:06 [info] 13616#7852: *16 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:06 [info] 13616#7852: *16 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:08 [info] 13616#7852: *13 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:08 [info] 13616#7852: *13 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:11 [info] 13616#7852: *8 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:11 [info] 13616#7852: *8 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:12 [info] 13616#7852: *9 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:12 [info] 13616#7852: *9 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:32 [info] 13616#7852: *18 client connected '127.0.0.1'
+2020/06/29 16:18:32 [info] 13616#7852: *18 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:32 [info] 13616#7852: *18 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:18:32 [info] 13616#7852: *18 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:20:17 [info] 13616#7852: *18 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:20:17 [info] 13616#7852: *18 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:22 [info] 13616#7852: *19 client connected '127.0.0.1'
+2020/06/29 16:22:22 [info] 13616#7852: *19 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:22 [info] 13616#7852: *19 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:22 [info] 13616#7852: *19 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:45 [info] 13616#7852: *19 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:45 [info] 13616#7852: *19 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:50 [info] 13616#7852: *20 client connected '127.0.0.1'
+2020/06/29 16:22:50 [info] 13616#7852: *20 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:50 [info] 13616#7852: *20 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:50 [info] 13616#7852: *20 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:59 [info] 13616#7852: *20 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:22:59 [info] 13616#7852: *20 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:11 [info] 13616#7852: *21 client connected '127.0.0.1'
+2020/06/29 16:23:11 [info] 13616#7852: *21 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:11 [info] 13616#7852: *21 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:11 [info] 13616#7852: *21 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:42 [info] 13616#7852: *21 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:42 [info] 13616#7852: *21 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:49 [info] 13616#7852: *22 client connected '127.0.0.1'
+2020/06/29 16:23:49 [info] 13616#7852: *22 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:49 [info] 13616#7852: *22 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:49 [info] 13616#7852: *22 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:52 [info] 13616#7852: *22 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:52 [info] 13616#7852: *22 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:56 [info] 13616#7852: *23 client connected '127.0.0.1'
+2020/06/29 16:23:56 [info] 13616#7852: *23 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:56 [info] 13616#7852: *23 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:23:56 [info] 13616#7852: *23 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:25:24 [info] 13616#7852: *23 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:25:24 [info] 13616#7852: *23 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:25:54 [info] 13616#7852: *24 client connected '127.0.0.1'
+2020/06/29 16:25:54 [info] 13616#7852: *24 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/user/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:25:54 [info] 13616#7852: *24 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:25:54 [info] 13616#7852: *24 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:01 [info] 13616#7852: *24 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:01 [info] 13616#7852: *24 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:21 [info] 13616#7852: *25 client connected '127.0.0.1'
+2020/06/29 16:26:21 [info] 13616#7852: *25 connect: app='live' args='' flashver='WIN 32,0,0,387' swf_url='http://127.0.0.1:5500/public/js/video-js-5.19.2/video-js-fixed.swf' tc_url='rtmp://localhost:1935/live/' page_url='http://127.0.0.1:5500/admin/html/video.html' acodecs=3575 vcodecs=252 object_encoding=3, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:21 [info] 13616#7852: *25 createStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:21 [info] 13616#7852: *25 play: name='room' args='' start=0 duration=0 reset=0 silent=0, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:24 [info] 13616#7852: *25 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:26:24 [info] 13616#7852: *25 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:29:42 [info] 13616#7852: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:29:42 [info] 13616#7852: *17 WSARecv() failed (10053: An established connection was aborted by the software in your host machine), client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:29:42 [info] 13616#7852: *17 disconnect, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:29:42 [info] 13616#7852: *17 deleteStream, client: 127.0.0.1, server: 0.0.0.0:1935
+2020/06/29 16:29:57 [notice] 512#12172: worker process 13616 exited with code 1
+2020/06/29 16:29:57 [notice] 512#12172: start worker process 11236
+2020/06/29 16:29:57 [notice] 11236#10984: nginx/1.13.12
+2020/06/29 16:29:57 [info] 11236#10984: OS: 260200 build:9200, "", suite:300, type:1
+2020/06/29 16:29:57 [notice] 11236#10984: create thread 13504
+2020/06/29 16:29:57 [notice] 11236#10984: create thread 15128
+2020/06/29 16:29:57 [notice] 11236#10984: create thread 10496

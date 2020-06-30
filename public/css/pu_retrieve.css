@@ -1,0 +1,26 @@
+        body {
+            background-image: url(../../Model/img/beijing.jpg)
+        }
+
+        #a1 {
+
+            top: -3px;
+        }
+
+        #c1 {
+            margin-left: 500px;
+            margin-right: 600px;
+        }
+
+        #c3 {
+            margin-left: 100px;
+        }
+
+        #c4 {
+            margin-top: -55px;
+            margin-left: 490px;
+        }
+
+        #a3 {
+            margin-left: 100px;
+        }

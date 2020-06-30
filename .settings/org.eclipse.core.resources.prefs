@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//WebContent/admin/html/addEquip.jsp=UTF-8
+encoding//WebContent/admin/html/alterEquip.jsp=UTF-8
+encoding//WebContent/admin/html/index.jsp=UTF-8
+encoding//WebContent/admin/html/modifyPassword.jsp=UTF-8
+encoding//WebContent/admin/html/userSetting.jsp=UTF-8
+encoding//WebContent/admin/html/video.jsp=UTF-8
+encoding//WebContent/public/html/Register.jsp=UTF-8
+encoding//WebContent/public/html/Retrieve.jsp=UTF-8
+encoding//WebContent/public/html/Retrieve_1.jsp=UTF-8
+encoding//WebContent/public/html/login.jsp=UTF-8
+encoding//WebContent/user/html/index.jsp=UTF-8
+encoding//WebContent/user/html/modifyPassword.jsp=UTF-8
+encoding//WebContent/user/html/video.jsp=UTF-8
+encoding//src/com/controller/AddEquipController.java=UTF-8
+encoding//src/com/controller/AdminIndexController.java=UTF-8
+encoding/<project>=UTF-8

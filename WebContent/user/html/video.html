@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>易识者云监视平台</title>
+    <!-- 引入 Bootstrap -->
+    <link href="../../Model/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../Model/css/animate.min.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <link rel="icon" href="../../Model/img/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../Model/img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../../public/js/video-js-5.19.2/video-js.css">
+
+    <script src="../../Model/js/jQuery.js"></script>
+    <script src="../../Model/js/bootstrap.js"></script>
+    <script src="../../Model/js/vue.js"></script>
+    <script src="../../public/js/video-js-5.19.2/video.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand " href="index.html"><span class="glyphicon glyphicon-facetime-video"
+                        aria-hidden="true" id="a1">
+                        易识者</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+                <div class="btn-group" style="margin-top:8px;margin-left:950px;">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        你好,<strong>姚云天!</strong> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="./modifyPassword.html">修改密码</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="../../public/html/login.html">登出</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="page-header" id="a3">
+        <h1>实时<small> 监控</small></h1>
+        <img src="../img/shexiang1.png" alt="" style="width:100px;position: absolute;right: 30px;top:50px;">
+    </div>
+
+    <table class="table table-striped" style="margin-left:100px;margin-right:50px;width:1200px;">
+        <tr>
+            <th>所在项目</th>
+            <th>项目归属</th>
+            <th>区域</th>
+            <th>监控点</th>
+            <th>领用人</th>
+            <th>发放时间</th>
+            <th>推流地址</th>
+        </tr>
+        <tr>
+            <td>xxxxxxx项目</td>
+            <td>xxxxxx公司</td>
+            <td>区域01</td>
+            <td>二楼过道</td>
+            <td>xxx</td>
+            <td>2020-03-25 12:48:12</td>
+            <td style="color: gray;">rtmp://localhost:1935/live/room</td>
+        </tr>
+    </table>
+
+
+        <div class="wrapper">
+            <div class="content-wrapper">
+                <section class="content">
+                    <div class="player-wrapper" style="margin:0 auto;width:80%;position:relative;">
+                        <div class="video-wrapper" style="padding-bottom:55%;position:relative;margin:0 auto;">
+                            <div class="video-inner" style="position:absolute;top:0;bottom:0;left:0;right:0;">
+                                <video id="videojs" class="video-js vjs-default-skin vjs-big-play-centered"
+                                    style="width: 1200px; height: 600px;margin-left:-50px;" controls preload="none"
+                                    poster="" x5-video-player-fullscreen=”true”，x5-video-player-type=”h5” controls
+                                    autoplay>
+                                    <source src="rtmp://localhost:1935/live/room" type="rtmp/flv">
+                                    </source>
+                                    <p class="vjs-no-js">
+                                        To view this video please enable JavaScript, and consider upgrading to a web
+                                        browser
+                                        that
+                                        <a href="http://videojs.com/html5-video-support/" target="_blank">
+                                            supports HTML5 video
+                                        </a>
+                                    </p>
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- wrapper-->
+                    <script>
+                        videojs.options.flash.swf = '../../public/js/video-js-5.19.2/video-js-fixed.swf';
+                        videojs.options.techOrder = ['html5', 'flash'];
+                        var player = null;
+                        var videoUrl = "rtmp://127.0.0.1:10935/hls/stream_1";
+                        player = videojs("videojs", {
+                            notSupportedMessage: '您的浏览器没有安装或开启Flash,戳我开启！',
+                            techOrder: ["flash"],
+                            autoplay: true
+                        });
+                        player.on("error", function (e) {
+                            var $e = $(".vjs-error .vjs-error-display .vjs-modal-dialog-content");
+                            var $a = $("<a href='http://www.adobe.com/go/getflashplayer' target='_blank'></a>")
+                                .text($e.text());
+                            $e.empty().append($a);
+                        });
+                    </script>
+                </section>
+            </div>
+
+        </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>易识者云监视平台</title>
+    <!-- 引入 Bootstrap -->
+    <link href="../../Model/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../Model/css/animate.min.css">
+    <link rel="stylesheet" href="../css/alterEquip.css">
+    <link rel="icon" href="../../Model/img/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../Model/img/icon.png" type="image/x-icon" />
+
+    <script src="../../Model/js/jQuery.js"></script>
+    <script src="../../Model/js/bootstrap.js"></script>
+    <script src="../../Model/js/vue.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span
+                        class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand " href="index.html"><span class="glyphicon glyphicon-facetime-video"
+                        aria-hidden="true" id="a1">
+                        易识者</span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索</button>
+                </form>
+                <div class="btn-group" style="margin-top:8px;margin-left:950px;">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        你好,<strong>姚云昊!</strong> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="./modifyPassword.html">修改密码</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="../../public/html/login.html">登出</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <div class="page-header" id="a3">
+        <h1>修改<small> 设备</small></h1>
+        <img src="../img/shexiang2.png" alt="" style="width:90px;position: absolute;right: 30px;top:60px;">
+    </div>
+    <div id="table_2" style="text-align: center;">
+        <form class="form-inline">
+            <div id="first">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left:10px;">设备序列号:</label>
+                    <input type="text" class="form-control" value="C51649125" ,required="required" disabled>
+                </div>
+                <div class="form-group" style="margin-left: 20px;">
+                    <label for="exampleInputEmail2" style="margin-left:10px;">设备名称:</label>
+                    <input type="text" class="form-control" placeholder="设备名称" required="required">
+                </div>
+            </div>
+
+            <div id="second" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left: 5px;">设备型号:</label>
+                    <input type="text" class="form-control" placeholder="设备型号" required="required" style="width:220px;">
+                </div>
+                <div class="form-group" style="margin-left: 20px;">
+                    <label for="exampleInputEmail2" style="margin-left:5px;">管理员密码:</label>
+                    <input type="password" class="form-control" placeholder="管理员密码" required="required"
+                        style="width:180px;">
+                </div>
+            </div>
+
+            <div id="third" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left:11px;">设备归属:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>公司</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-left:20px">
+                    <label for="exampleInputName2" style="margin-left: 25px;">归属单位:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>分公司名称</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="forth" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left:11px;">设备类型:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>请选择</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-left:20px">
+                    <label for="exampleInputName2" style="margin-left: 25px;">联网方式:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>请选择</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="fifth" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left:11px;">接口形式:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>请选择</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-left:20px">
+                    <label for="exampleInputName2" style="margin-left: 25px;">电源规格:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>请选择</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                        <option>#</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="sixth" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left:10px;">ip地址:</label>
+                    <input type="text" class="form-control" placeholder="ip地址">
+                </div>
+                <div class="form-group" style="margin-left: 20px;">
+                    <label for="exampleInputEmail2" style="margin-left: 40px;">物理地址:</label>
+                    <input type="text" class="form-control" placeholder="物理地址">
+                </div>
+            </div>
+
+            <div id="seventh" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputName2" style="margin-left:11px;">使用状态:</label>
+                    <select class="form-control" style="width: 200px;">
+                        <option>空闲</option>
+                        <option>报废</option>
+                        <option>在用</option>
+                    </select>
+                </div>
+                <div class="form-group" style="margin-left: 20px;">
+                    <label for="exampleInputEmail2" style="margin-left: 25px;">采购日期:</label>
+                    <input type="text" class="form-control" placeholder="默认当前日期">
+                </div>
+            </div>
+
+            <div id="eighth" style="margin-top:20px;">
+                <div class="form-group" style="margin-left: 20px;">
+                    <label for="exampleInputEmail2" style="margin-left:-6px;">添加时间:</label>
+                    <input type="text" class="form-control" placeholder="默认当前时间">
+                </div>
+                <div class="form-group" style="margin-left: 20px;">
+                    <label for="exampleInputEmail2" style="margin-left: 25px;">添加人员:</label>
+                    <input type="text" class="form-control" placeholder="默认当前用户">
+                </div>
+            </div>
+
+            <div id="ninth" style="margin-top:20px;">
+                <div class="form-group">
+                    <label for="exampleInputEmail2" style="margin-left:10px;">备注:</label>
+                    <textarea class="form-control" rows="3" style="width: 540px;"></textarea>
+                </div>
+
+            </div>
+
+            <div id="button" style="margin-top: 20px;">
+                <button type="button" class="btn btn-default" style="margin-left: 20px;"><a
+                        href="addEquip.html">取消</a></button>
+                <button type="button" class="btn btn-primary" style="margin-left:20px;"><a href="index.html"
+                        style="color: aliceblue;">保存</a></button>
+
+
+            </div>
+
+
+
+
+        </form>
+
+    </div>
+</body>
+
+</html>
